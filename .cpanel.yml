@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gblglnsj/vincent.trie.africa
+    - /bin/cp -r * $DEPLOYPATH
+
